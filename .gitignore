@@ -8,9 +8,5 @@
 
 # dotenv / secrets
 .env
-.env.*
-!.env.example
-
-/frontend/.env*
-/backend/.env*
-/backend/config/config.env
+.env.production
+backend/config/config.env
