@@ -161,3 +161,9 @@
 // render -> signin with git -> select project repo-> add branch -> 
 // set start as npm start -> select free tier -> add from .env set environment variables
 // Deploy Web Service -> copy given link paste it in environment varibale of frontend -> save and 
+
+// Step 4 
+// CONNECT WITH STRIPE
+// Go to stripe-> webhooks-> add destination -> select event -> checkout.session.complete->
+// continue -> Add url, Name -> Add destination -> copy signing secret -> 
+// paste it in render environment variable stripe webhook secret ->
